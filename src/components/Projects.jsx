@@ -1,6 +1,6 @@
-import { Container, Row, Col } from "react-bootstrap"
-import Nav from 'react-bootstrap/Nav';
-import Tab from 'react-bootstrap/Tab';
+import { Container, Row, Col,Tab, Nav } from "react-bootstrap"
+import { ProjectsCard } from "./ProjectCards"
+
 
 export const Projects = () => {
 
@@ -65,7 +65,10 @@ export const Projects = () => {
                                     {
                                       projects.map((project, index) => {
                                         return (
-                                            <p>{project.title}</p>
+                                            <ProjectsCard
+                                            key={index}
+                                            {...project}
+                                            />
                                         )
                                       })
                                     }
