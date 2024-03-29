@@ -43,7 +43,7 @@ app.post("/api/contact", bodyParser.urlencoded({ extended: false }), (req, res) 
   const mail = {
     from: name,
     to: process.env.EMAIL_ADDRESS,
-    subject: "Contact Form Submission - Portfoloi",
+    subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
       <p>Email: ${email}</p>
       <p>Phone: ${phone}</p>
