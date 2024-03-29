@@ -34,3 +34,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# dependencies
+/server/node_modules
+node_modules
+#enviroment variables
+/server/.env
