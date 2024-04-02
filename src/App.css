@@ -31,8 +31,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
-  color: #fff !important;
+  background-color: #B6E7F2 !important;
+  color: #223A40 !important;
   font-family: 'Centra', sans-serif !important;
 }
 
@@ -92,7 +92,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #168195
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -243,8 +243,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(90.21deg, rgba(4, 105, 125, 0.5) -5.91%, rgba(164, 212, 232, 0.5) 111.58%);
+  border: 1px solid rgba(156, 205, 220, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -258,14 +258,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #024959;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
 .banner button {
-  color: #fff;
+  color: #024959;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -306,7 +306,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #3C9BA6;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -317,7 +317,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #C2E5F2;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -344,7 +344,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #84C9D9;
 }
 .project h2 {
 	font-size: 45px;
@@ -352,7 +352,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: #8FA1A6;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -364,7 +364,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: rgba(183, 82, 82, 0.1);
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
@@ -389,7 +389,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #168195 -5.91%, #AADFEF 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -421,7 +421,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #418F9C -5.91%, #04697D 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -468,7 +468,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #168195 -5.91%, #A4D4E8 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -525,7 +525,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #024959;
   width: 0;
   height: 100%;
   position: absolute;
@@ -541,19 +541,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0;
-  background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
+  background: linear-gradient(90.21deg, #168195 -5.91%, #A4D4E8 111.58%);
+  /* background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
-.footer img {
+/* .footer img {
   width: 26%;
-}
+} */
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #8FCBD9;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
