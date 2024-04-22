@@ -52,7 +52,8 @@ export const Banner = () => {
                             <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                                 <span className="tagline">Welcome to my Portfolio</span>
                                 <h1>{`Hi I'm Anastasia, `}<span className="wrap">{text}</span></h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit in leo et mollis. Quisque vehicula a nisl nec vehicula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin turpis felis, finibus at nisi nec, convallis finibus purus. Aenean non finibus nibh. Phasellus ac risus vitae felis iaculis faucibus. Curabitur commodo dictum egestas. Sed eget malesuada massa.</p>
+                                <p>As a software engineer with a rich background in sociology and customer service, I've always been driven by the pursuit of a fulfilling career path. This quest led me to Hack Reactor, where my experience began with underestimating the program's intensity and pace. Despite feeling prepared, I quickly found myself challenged, yet I surprised myself by adapting and thriving, signaling significant personal and professional growth.  My career shift to software engineering was motivated by a longing for a field brimming with growth, excitement, and innovation - a career I could take pride in.
+</p>
                                 <Nav.Link href="#connect">
                                     <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                                 </Nav.Link>
