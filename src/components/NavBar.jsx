@@ -44,11 +44,13 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={navIcon1} alt="" /></a>
-                            <a href="#"><img src={navIcon2} alt="" /> </a>
-                            <a href="#"><img src={navIcon3} alt="" /></a>
+                            <a href="https://www.linkedin.com/in/anastasia-dwarica-pham/"><img src={navIcon1} alt="" /></a>
+                            <a href="https://github.com/asiad96"><img src={navIcon2} alt="" /> </a>
+                            <a href="https://gitlab.com/asiad96"><img src={navIcon3} alt="" /></a>
                         </div>
+                        <Nav.Link href="#connect">
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                        </Nav.Link>
                     </span>
                 </Navbar.Collapse>
             </Container>
