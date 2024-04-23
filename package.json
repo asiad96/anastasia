@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "pm2 start ecosystem.config.cjs",
-    "dev": "vite",
     "build": "vite build",
+    "start": "pm2-runtime start ecosystem.config.js",
+    "heroku-postbuild": "npm run build",
+    "dev": "vite",
     "serve": "vite preview",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
