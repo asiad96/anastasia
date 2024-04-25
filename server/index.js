@@ -3,15 +3,18 @@ const express = require('express');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
-const { error } = require('console');
+// const { error } = require('console');
+const { fileURLToPath } = require('url');
 require('dotenv').config();
 
 
 const PORT = process.env.EMAIL_PORT || 3001;
+// const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 app.use(cors());
 app.use(bodyParser.json())
+app.use(express.static('dist'));
 
 app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" })
@@ -58,8 +61,13 @@ app.post("/api/contact", bodyParser.urlencoded({ extended: false }), (req, res) 
       res.json({ code: 200, status: "Message Sent" })
     }
   })
-
 })
+
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
+});
+
 
 app.listen(PORT, () => {
   console.log(`Server is online on port: ${PORT}`)
